@@ -1,6 +1,11 @@
 <html>
 <head>
-    <title>Top 5</title>
+    <title>
+        Top 5
+    </title>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="3">
+        <meta name="description" content="Testing meta-description">
 </head>
 <body>
     <h1>Top 5</h1>
@@ -33,14 +38,85 @@
     </p>
     <table>
         <tr>
-            <td>Jerko</td>
+            <th>Name</th>
+            <th colspan="1">Last name</th>
         </tr>
         <tr>
+            <td colspan="1">Jerko</td>
             <td>Gunjaca</td>
         </tr>
     </table>
     <p>
         <textarea rows="5" cols="20">Text area</textarea>
     </p>
+    <p>
+        <cite>Are you:</cite>
+    </p>
+    <p>
+        <input type="radio" name="areyou" value="male"> Male
+    </p>
+    <p>
+        <input type="radio" name="areyou" value="female"> Female
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+    <p>
+        <dl>
+            <dt>Testing HTML lists, dt element</dt>
+            <dd>This is dd element</dd>
+            <dt>More of dt</dt>
+            <dd>This is another dd element text, dd elements are associated to dt elements.</dd>
+        </dl>
+    </p>
+        <h3>Author contact details</h3>
+    <address>
+    <ul>
+        <li>0123-456-7890</li>
+        <li>author_dude@noplaceinteresting.com</li>
+        <li>http://www.noplaceinteresting.com/contactme/</li>
+    </ul>
+    </address>
+    <p>Using dfn:</p>
+    <p>Bob's <dfn title="Dog">canine</dfn> mother and <dfn title="Horse">equine</dfn> 
+        father sat him down and carefully explained that he was an 
+        <dfn title="A mutation that combines two or more sets of chromosomes from different species">allopolyploid</dfn>
+         organism.
+    </p>
+    <p>Using bdo</p>
+    <bdo dir="rtl">god lmth</bdo>
+    <p>Using ins and del</p>
+    <p> <b>Del</b> is displayd with <del datetime="2013-01-26">strikethrough</del>
+        and <b>ins</b> is displayed <ins>underlined</ins>
+    </p>
+    <article>
+            <section id="intro">
+                <p>Introduction section</p>
+            </section>
+            <section id="main_content">
+                <p>Content section</p>
+            </section>
+            <section id="related">
+                <ul>
+                    <li><a href="that.html">1. related article</a></li>
+                    <li><a href="this.html">2. related article</a></li>
+                </ul>
+            </section>
+        </article>
+        <article>
+                <header>
+                    <h1>Alternatively&hellip;</h1>
+                    <p>Header in article</p>
+                </header>
+                <section id="main_content">
+                    <p>Content section</p>
+                </section>
+                <footer>
+                    <p>Footer in aticle</p>
+                </footer>
+        </article>
+            <footer>
+                <p>Footer without article</p>
+            </footer>
 </body>
-</html>  
+</html>
