@@ -62,6 +62,26 @@
         color: blue;
         font-weight: bold;
       }
+      a:link {
+        color: blue;
+      }
+      a:visited {
+        color: purple;
+      }
+      y:active {
+        color: red;
+      }
+
+      y:hover {
+        text-decoration: none;
+        color: blue;
+        background-color: yellow;
+      }
+
+      input:focus,
+      textarea:focus {
+        background: #eee;
+      }
     </style>
   </head>
   <body>
@@ -86,5 +106,8 @@
       <z>Testing div nesting</z>
       <p>Testing div nesting with p</p>
     </div>
+    <a href="https://www.google.com/">If this is not visited it will be blue</a>
+    <br />
+    <y>Testing active, hover and focus</y>
   </body>
 </html>
