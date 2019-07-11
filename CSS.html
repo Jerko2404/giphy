@@ -7,11 +7,9 @@
     />
     <style>
       p {
-        color: red;
+        color: green;
         letter-spacing: 0.5em;
-        word-spacing: 2em;
         line-height: 1.5;
-        text-align: center;
       }
       a {
         color: blue;
@@ -20,7 +18,7 @@
         font-size: 14px;
         color: navy;
         font-weight: 900;
-        background-color: rgb(185, 104, 10);
+        background-color: rgb(18, 108, 182);
         font-family: "DM Serif Text", serif;
       }
       div {
@@ -36,6 +34,20 @@
         background-color: #ccc;
         margin: 20px;
         padding: 40px;
+        border-style: dashed;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: red;
+      }
+      #top {
+        background-color: #ccc;
+        padding: 20px;
+      }
+
+      .intro {
+        color: red;
+        font-weight: bold;
       }
     </style>
   </head>
@@ -47,6 +59,15 @@
     <br />Navy color
     <div>
       Foo
+    </div>
+    <div id="top">
+      <h1>Div and span</h1>
+
+      <p class="intro">
+        class intro
+      </p>
+
+      <p>No class intro</p>
     </div>
   </body>
 </html>
