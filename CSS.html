@@ -10,6 +10,10 @@
         color: green;
         letter-spacing: 0.5em;
         line-height: 1.5;
+        margin: 1px 5px 10px 20px;
+        p {
+          border: 1px red solid;
+        }
       }
       a {
         color: blue;
@@ -82,12 +86,29 @@
       textarea:focus {
         background: #eee;
       }
+      p:first-letter {
+        font-size: 24px;
+        float: left;
+      }
+
+      p:first-line {
+        font-weight: bold;
+      }
+      p:first-child {
+        font-weight: bold;
+        font-size: 40px;
+      }
+      li {
+        display: inline;
+      }
     </style>
   </head>
   <body>
+    <p>First paragraph</p>
     <h1>h1 style</h1>
     <h2>h2 style-margins</h2>
     <p style="color: red">Inline style</p>
+    <p>No style</p>
     <a>This will be blue</a>
     <br />Navy color
     <div>
@@ -109,5 +130,8 @@
     <a href="https://www.google.com/">If this is not visited it will be blue</a>
     <br />
     <y>Testing active, hover and focus</y>
+    <ul>
+      <li>Inline test</li>
+    </ul>
   </body>
 </html>
