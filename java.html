@@ -1,4 +1,11 @@
 <html>
+  <head>
+    Java
+  </head>
+  <body>
+    <br />
+    <button class="big-button">Gumb</button>
+  </body>
   <script>
     alert("Hello, world.");
     var surname = prompt("Greetings friend, may I enquire as to your surname?");
@@ -15,6 +22,7 @@
     if (10 > 5) {
       var m = 10 + 2;
     }
+
     if (43 < 2) {
       m = 0;
     } else {
@@ -40,9 +48,11 @@
     };
     var emptyarray = [];
     var shoppingList = ["Milk", "Bread", "Beans"];
+    var handleClick = function(event) {
+      console.log("click");
+    };
+    var button = document.querySelector(".big-button");
+    console.log(button);
+    button.addEventListener("click", handleClick);
   </script>
-  <head>
-    Java
-  </head>
-  <body></body>
 </html>
